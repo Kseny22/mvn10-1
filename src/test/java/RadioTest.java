@@ -11,7 +11,6 @@ public class RadioTest {
         int actual = radio.getCurrentStation();
         Assertions.assertEquals(expected, actual);
     }
-
     @Test
     public void moreNorm() {
         Radio radio = new Radio();
