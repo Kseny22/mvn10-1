@@ -56,7 +56,6 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
     }
 
-
     @Test
     public void minStationZero() {
         Radio radio = new Radio();
@@ -112,7 +111,6 @@ public class RadioTest {
         int actual = radio.getCurrentStation();
         Assertions.assertEquals(expected, actual);
     }
-
 
     @Test
     public void nexTwo() {

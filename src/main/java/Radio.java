@@ -37,8 +37,6 @@ public class Radio {
         }
     }
 
-
-
     public int getCurrentStation() {
         return currentStation;
     }
